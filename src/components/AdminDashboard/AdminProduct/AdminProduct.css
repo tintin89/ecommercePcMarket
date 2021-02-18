@@ -1,0 +1,39 @@
+.adminProduct{
+    margin:1rem auto;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 1rem;
+    align-self: center;
+    width: 90%;
+    height: 4rem;
+    background: linear-gradient(to right, #061161, #780206);
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+.adminProduct div{   
+    flex: 0.20; 
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.adminProduct div .MuiSvgIcon-root{
+    color:white;
+
+}
+
+
+
+.thumbAdmin{
+    background-color: white;
+    border-radius: 1rem 0 0 1rem;
+}
+.thumbAdmin img{
+    width: 100%;
+    max-height: 4rem;
+    object-fit: contain; 
+}

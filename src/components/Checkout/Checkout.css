@@ -1,0 +1,124 @@
+.checkout{
+    width:95%;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.checkout h2{
+    width: 100%;
+    text-align: center;
+}
+
+.header__checkout{
+    width: 100%;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.header__checkout span{
+    flex: 1;
+    border-bottom: 2px solid white;
+    text-align: center;
+    
+}
+
+.products__checkout{
+    width: 100%;
+    display: flex;    
+    flex-flow:column;
+}
+.products__checkout p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.total__checkout{
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    
+}
+.total__checkout span{
+    margin-left: 0.5rem;
+}
+
+.buttons__checkout{   
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;  
+    justify-content: center;  
+}
+.buttons__checkout button:last-child{
+    margin-left: 1rem;
+}
+
+.buttons__checkout button{
+    padding:0.5rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #061161, #780206);
+    font-family: 'Yusei Magic', sans-serif;
+    letter-spacing: 1px;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);    
+}
+
+
+
+.product__checkout{
+    margin-top: 0.5rem;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.product__checkout .product__checkoutField{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.product__checkoutImg__container{
+    flex:1;
+    background-color: white;
+}
+
+.product__checkoutImg__container img {
+    width:100%;
+    max-height: 4rem;
+    object-fit: contain; 
+}
+
+.product__checkoutProductName{
+    flex: 1;
+    text-align: center;
+}
+
+
+.product__checkoutField .MuiSvgIcon-root{
+    color:white;
+}
+.removeQuantity{
+    margin-right: 0.5rem;
+    cursor:pointer;
+}
+.addQuantity{
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+

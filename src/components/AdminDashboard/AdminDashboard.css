@@ -1,0 +1,132 @@
+.adminDashboard{
+    margin-top: 1rem;
+    width: 100%;
+    display:flex;
+    flex-flow:column;
+}
+.navBar__admin{
+    align-self: center;
+    width: 90%;
+    height: 2.5rem;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navBar__adminLeftOp{
+    display: flex;
+    align-items: center;
+    
+    color: white;
+    font-family:'Yusei Magic', sans-serif;
+    font-size: 1rem;
+}
+.navBar__adminLeftOp .MuiSvgIcon-root{
+    color: white;
+    font-size: 2rem;    
+}
+.navBar__adminRightOp{
+    display: flex;     
+    align-items: center;  
+}
+
+
+.selectContainerAdmin{ 
+    display: flex;
+    align-items: center;       
+}
+
+.selectContainerAdmin select{
+    margin-right: 2rem;
+    padding:0.2rem 0.5rem;
+    cursor: pointer;    
+    border-radius: 1rem;
+    outline: none;
+    color: #061161;
+    background-color: white;
+    font-family:'Yusei Magic', sans-serif;
+    box-shadow: 1px 1px 10px white;
+    
+}
+.inputSearch__navBarAdmin{
+    
+    max-width: 300px;
+    min-width: 100px;
+    width: 100%;
+    justify-self: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.1rem 0.5rem;
+}
+.inputSearch__navBarAdmin .MuiSvgIcon-root{
+    color: white;
+}
+.inputSearch__navBarAdmin input {
+    width: 100%;
+    background-color: transparent;
+    padding:5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family:'Yusei Magic', sans-serif;
+}
+
+.products__admin{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom:1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.form__admin{
+    box-shadow: 1 1px 15px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    background:linear-gradient(to right, #061161, #780206);
+}
+
+.form__admin input{
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    background-color: transparent;
+    font-family:'Yusei Magic', sans-serif;
+    color: white;
+}
+.form__admin input::placeholder{
+    color: white;
+    font-family:'Yusei Magic', sans-serif;
+}
+
+.form__admin button{
+    margin-top: 1.2rem;
+    width: 90%;
+    border:2px solid white;
+    border-radius: 1rem;
+    outline: none;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family:'Yusei Magic', sans-serif;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form__admin .selectContainerAdmin select{
+    margin-left: 1rem;
+}

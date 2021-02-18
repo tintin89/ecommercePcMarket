@@ -1,0 +1,59 @@
+.formContainer{    
+    display:flex;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.formLogin{
+    min-width: 400px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 1rem;    
+    margin-top: 20vh;
+    display:flex;
+    flex-flow: column;
+    box-shadow: 1px 1px 10px white;
+}
+
+.formLogin input{
+    margin-bottom: 0.5rem;
+    border: 2px solid white;
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: white;
+    font-family:'Yusei Magic', sans-serif;
+    font-size: 1rem;
+    
+}
+
+.formLogin input::placeholder{
+    color: white;
+    font-family:'Yusei Magic', sans-serif;
+    font-size: 1rem;
+}
+
+.formLogin button{
+    margin-top: 0.8rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-family:'Yusei Magic', sans-serif;
+    background:linear-gradient(to right, #061161, #780206);
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.formContainer a{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 2px;
+    text-shadow: 1px 1px 10px white;
+}

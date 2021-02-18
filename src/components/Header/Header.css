@@ -1,0 +1,82 @@
+.headerContainer{
+    display:flex;
+    flex-flow: column;
+    height: 6.5rem;
+}
+.header{   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active{
+    text-shadow:0 0 5px white;
+}
+
+
+.navBar{
+    
+    color: white;
+    display:flex;
+    justify-content: space-between;    
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    
+    /*
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    */
+    
+}
+
+.actions__navBar ul{    
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.actions__navBar ul li{ 
+     
+    list-style-type: none;    
+    margin-right: 2rem;      
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Yusei Magic', sans-serif;
+    display:flex; 
+      
+}
+
+.actions__navBar ul li .MuiSvgIcon-root {
+    padding-right: 0.1rem;
+}
+.actions__navBar ul li:hover{   
+    text-shadow:0 0 5px white;  
+}
+
+.logo__navBar{
+    margin-left: 3rem;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.9rem;
+    text-shadow: 1px 0 10px white;
+        
+}
+
+
+
+.actions__navBar{
+    margin-right: 2rem;    
+}
+
+
+
+@media (max-width: 550px){
+
+}
